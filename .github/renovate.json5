@@ -8,10 +8,10 @@
     ":automergeDigest"
   ],
   "platform": "github",
-  "username": "bot-ross[bot]",
+  "username": "hlhc[bot]",
   "onboarding": false,
   "requireConfig": "optional",
-  "gitAuthor": "bot-ross <98030736+bot-ross[bot]@users.noreply.github.com>",
+  "gitAuthor": "hlhc-bot <381845+hlhc[bot]@users.noreply.github.com>",
   "dependencyDashboardTitle": "Renovate Dashboard 🤖",
   "suppressNotifications": ["prIgnoreNotification"],
   "commitBodyTable": true,
