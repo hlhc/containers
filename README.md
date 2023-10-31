@@ -67,7 +67,7 @@ Each Image will be built with a `rolling` tag, along with tags specific to it's 
 
 Container | Channel | Image | Latest Tags
 --- | --- | --- | ---
-[postgres-init]() | stable | ghcr.io/hlhc/postgres-init |
+[postgres-init](https://github.com/hlhc/containers/pkgs/container/postgres-init) | stable | ghcr.io/hlhc/postgres-init |![16.0-r1](https://img.shields.io/badge/16.0--r1-blue?style=flat-square) ![rolling](https://img.shields.io/badge/rolling-blue?style=flat-square)
 
 
 ## Contributing
