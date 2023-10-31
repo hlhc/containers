@@ -1,0 +1,32 @@
+{
+  "extends": [
+    "config:base",
+    "docker:enableMajor",
+    ":disableRateLimiting",
+    ":semanticCommits",
+    ":automergeDigest"
+  ],
+  "platform": "github",
+  "username": "hlhc[bot]",
+  "onboarding": false,
+  "requireConfig": "optional",
+  "gitAuthor": "hlhc [bot] <381845+hlhc[bot]@users.noreply.github.com>",
+  "suppressNotifications": ["prIgnoreNotification"],
+  "commitBodyTable": true,
+  "packageRules": [
+    {
+      "description": "Auto-merge Github Actions",
+      "matchDatasources": ["github-tags"],
+      "automerge": true,
+      "automergeType": "branch",
+      "ignoreTests": true,
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchPackagePatterns": ["renovatebot/github-action"]
+    },
+    {
+      "matchDatasources": ["docker"],
+      "matchUpdateTypes": ["digest"],
+      "commitMessagePrefix": "📣 "
+    }
+  ]
+}
