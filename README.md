@@ -112,3 +112,5 @@ Containers here can be **deprecated** at any point, this could be for any reason
 ## Credits
 
 A lot of inspiration and ideas are thanks to the hard work of [hotio.dev](https://hotio.dev/) and [linuxserver.io](https://www.linuxserver.io/) contributors.
+
+This repo is a fork of [onedr0p/containers](https://github.com/onedr0p/containers), great thanks to [onedr0p](https://github.com/onedr0p)
